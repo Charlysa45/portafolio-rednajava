@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+#header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: linear-gradient(295deg, rgba(1,66,214,1) 0%, rgba(43,229,255,1) 100%);
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+}
+
+.header-logo{
+  width:120px;
+  height:75px;
+}
+
+.header-menu{
+  list-style-type: none;
+  padding-left: 0%;
+  display: flex;
+  color: #fff;
+}
+
+.header-menu li{
+  margin-right: 40px;
+}
+
+.perfil{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.perfil img{
+  border-radius: 20%;
+  width: 250px;
+}
+
+.perfil-info{
+  text-align: center;
+}
+
+.perfil-info h1{
+  margin-bottom: 1px;
+}
+.perfil-info p{
+  margin-top: 2px;
+}
+
+.technologies{
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.technologies-title{
+  padding-left: 19.2rem;
+}
+
+.technology{
+  width: 390px;
+  margin-right: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 35%);
+}
+
+.technology img{
+  width: 390px;
+  height: 270px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.technology-content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.experiences{
+  padding-top: 50px;
+  padding-left: 19rem;
+  padding-right: 21.5rem;
+}
+
+.experience{
+  background-color: rgb(216, 216, 216);
+  box-shadow: 0 5px 6px rgb(0 0 0 / 35%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.experience-head{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.experience-head h4{
+  margin-top: 0%;
+}
+
+.experience p{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#footer{
+  background: linear-gradient(295deg, rgba(1,66,214,1) 0%, rgba(43,229,255,1) 100%);
+  margin-top: 4rem;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 19rem;
+  padding-right: 21.5rem;
+  margin-top: 100px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+
